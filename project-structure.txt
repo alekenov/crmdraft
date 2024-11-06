@@ -1,0 +1,123 @@
+.
+├── design-system.md
+├── instructions.md
+├── migrations
+│   └── update_products_table.sql
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── project-context.md
+├── project-structure.txt
+├── public
+│   └── index.html
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── components
+│   │   ├── features
+│   │   │   └── orders
+│   │   │       ├── OrderCard
+│   │   │       │   └── OrderCard.jsx
+│   │   │       ├── OrderForm
+│   │   │       │   └── OrderForm.jsx
+│   │   │       └── OrderList
+│   │   │           └── OrderList.jsx
+│   │   ├── layout
+│   │   │   ├── Header
+│   │   │   │   ├── Header.css
+│   │   │   │   └── Header.jsx
+│   │   │   ├── PageLayout
+│   │   │   │   └── PageLayout.jsx
+│   │   │   ├── SidebarMenu
+│   │   │   │   └── SidebarMenu.jsx
+│   │   │   └── TopBar
+│   │   │       └── TopBar.jsx
+│   │   └── ui
+│   │       ├── Badge
+│   │       │   └── Badge.jsx
+│   │       ├── Button
+│   │       │   └── Button.jsx
+│   │       ├── Card
+│   │       │   └── Card.jsx
+│   │       ├── Input
+│   │       │   └── Input.jsx
+│   │       ├── Modal
+│   │       │   └── Modal.jsx
+│   │       └── Select
+│   │           └── Select.jsx
+│   ├── config
+│   │   └── supabase.js
+│   ├── features
+│   │   └── products
+│   │       ├── components
+│   │       │   └── ProductList
+│   │       │       ├── index.tsx
+│   │       │       └── styles.module.css
+│   │       ├── hooks
+│   │       │   └── useProducts.ts
+│   │       └── types.ts
+│   ├── hooks
+│   │   └── useSupabase.js
+│   ├── index.css
+│   ├── index.js
+│   ├── index.jsx
+│   ├── pages
+│   │   ├── AnalyticsPage
+│   │   │   └── AnalyticsPage.jsx
+│   │   ├── ClientsPage
+│   │   │   ├── ClientsPage.css
+│   │   │   └── ClientsPage.jsx
+│   │   ├── Dashboard
+│   │   │   └── DashboardPage.jsx
+│   │   ├── DeliveryPage
+│   │   │   └── DeliveryPage.jsx
+│   │   ├── InventoryPage
+│   │   │   ├── InventoryPage.jsx
+│   │   │   └── components
+│   │   │       ├── HistoryMode.jsx
+│   │   │       ├── OperationHistory.jsx
+│   │   │       └── RevisionMode.jsx
+│   │   ├── LoginPage
+│   │   │   └── LoginPage.jsx
+│   │   ├── OrdersPage
+│   │   │   ├── OrdersPage.jsx
+│   │   │   └── components
+│   │   │       └── OrderProcessing.jsx
+│   │   ├── ProductsPage
+│   │   │   ├── ProductsPage.jsx
+│   │   │   ├── ProductsPage.module.css
+│   │   │   ├── components
+│   │   │   │   ├── ProductEditForm.jsx
+│   │   │   │   ├── ProductForm
+│   │   │   │   │   └── index.tsx
+│   │   │   │   └── ProductForm.jsx
+│   │   │   └── types.ts
+│   │   ├── ReportsPage
+│   │   │   └── ReportsPage.jsx
+│   │   └── Settings
+│   │       ├── SettingsPage.jsx
+│   │       ├── ShopManagement.jsx
+│   │       ├── components
+│   │       │   ├── EmployeeSettings
+│   │       │   │   ├── EmployeeSettings.jsx
+│   │       │   │   └── index.js
+│   │       │   └── ShopSettings
+│   │       │       ├── ShopSettings.jsx
+│   │       │       └── index.js
+│   │       └── index.js
+│   ├── services
+│   │   └── api
+│   │       └── orders.js
+│   ├── store
+│   │   ├── clients
+│   │   │   └── clientsSlice.js
+│   │   ├── orders
+│   │   │   └── ordersSlice.js
+│   │   ├── products
+│   │   │   └── productsSlice.js
+│   │   └── store.js
+│   └── styles
+│       └── tailwind.css
+└── tailwind.config.js
+
+54 directories, 67 files

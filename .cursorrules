@@ -1,0 +1,26 @@
+# Cursor AI Rules
+
+## File Structure Rules
+- All components should be in separate folders with index.js
+- Each feature module should have its own types.ts
+- Styles should be in separate .module.css files
+
+## Naming Conventions
+- Components: PascalCase
+- Hooks: use[Name]
+- Context: [Name]Context
+- Types: I[Name] for interfaces, T[Name] for types
+
+## Code Organization
+- Import order: React, External libs, Internal modules, Types, Styles
+- Max file length: 300 lines
+- Component structure: Props, Hooks, Effects, Render
+
+## Shared Logic Location
+/src/core/hooks/
+/src/core/services/
+/src/core/utils/
+
+## Platform Specific Code
+- Web specific: /src/platforms/web/
+- Mobile specific: /src/platforms/mobile/ 
